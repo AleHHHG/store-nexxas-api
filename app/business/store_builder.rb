@@ -19,8 +19,8 @@ class StoreBuilder
   def update(store)
     ActiveRecord::Base.transaction do
       @address = store.address
-      addess = @params[:address]
-      @address.update_attributes(addess) if addess.present?
+      address = @params[:address]
+      @address.update_attributes(address) if address.present?
       store.update_attributes(build_store_params)
     end
   end
