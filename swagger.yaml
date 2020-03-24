@@ -2,7 +2,9 @@ swagger: "2.0"
 info:
   version: "1.0.0"
   title: "Swagger Store API"
+host: "store-nexaas-api.herokuapp.com"
 schemes:
+- "https"
 - "http"
 paths:
   /products:
@@ -51,8 +53,8 @@ paths:
       tags:
       - "product"
       summary: "Find product by ID"
-      description: "Returns a single pet"
-      operationId: "getPetById"
+      description: "Returns a single Product"
+      operationId: "getProductById"
       parameters:
       - name: "product_id"
         in: "path"
@@ -100,7 +102,7 @@ paths:
       parameters:
       - name: "product_id"
         in: "path"
-        description: "Pet id to delete"
+        description: "Product id to delete"
         required: true
         type: "integer"
         format: "int64"

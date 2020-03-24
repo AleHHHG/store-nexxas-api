@@ -13,3 +13,4 @@ Para executar o projeto no ambiente de desenvolvimento siga os passos abaixo.
 
 * Documentaçao: https://app.swaggerhub.com/apis/SJ-Consultoria/swagger-store_api/1.0.0
 
+* Heroku: https://store-nexaas-api.herokuapp.com/
